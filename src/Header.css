@@ -2,6 +2,7 @@
 position: sticky; /* it Sticks */
 top: 0; /* Sticks to the top onced passed this point */
 display: flex; /* Everything goes into a line */
+background-color: white;
 justify-content: space-evenly; /* Justify containers header__left & header__right evently, by doing that we get push them to the middle */
 border-bottom: 0.1px solid lightgray;
 padding-top: 10px;
