@@ -1,0 +1,44 @@
+.header {
+position: sticky; /* it Sticks */
+top: 0; /* Sticks to the top onced passed this point */
+display: flex; /* Everything goes into a line */
+justify-content: space-evenly; /* Justify containers header__left & header__right evently, by doing that we get push them to the middle */
+border-bottom: 0.1px solid lightgray;
+padding-top: 10px;
+padding-bottom: 10px;
+width: 100%;
+z-index: 999;
+}
+
+.header__left {
+    display: flex;
+}
+
+.header__left > img {
+    object-fit: contain; /* When resizes the img keeps the aspect ratio */
+    height: 40px;
+    /* margin-top: 10px; */
+    margin-right: 10px;
+}
+
+.header__search { /* Encapsulates the search-icon & the input */
+    padding: 10px;
+    display: flex; /* TThings to be inlined */
+    align-items: center; /*  */
+    border-radius: 5px;
+    height: 22px;
+    color: gray;
+    background-color: #eef3f8;
+}
+
+.header__search > input {
+    outline: none;
+    border: none;
+    background: none;
+}
+
+.header__right {
+    display: flex; /* Put things in a row */
+}
+
+/*  */
